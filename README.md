@@ -58,6 +58,11 @@ The [trigamma function][trigamma-function] `ψ^(1)` is the derivative of the [di
 ## Usage
 
 ```javascript
+import trigammaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-trigammaf/tags). For example,
+
+```javascript
 import trigammaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@v0.1.1-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ var v = trigammaf( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import trigammaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@v0.1.1-esm/index.mjs';
+import trigammaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
