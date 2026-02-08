@@ -60,6 +60,11 @@ The [trigamma function][trigamma-function] `ψ^(1)` is the derivative of the [di
 To use in Observable,
 
 ```javascript
+trigammaf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-trigammaf/tags). For example,
+
+```javascript
 trigammaf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@v0.1.1-umd/browser.js' )
 ```
 
@@ -72,7 +77,7 @@ var trigammaf = require( 'path/to/vendor/umd/math-base-special-trigammaf/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -136,7 +141,7 @@ var v = trigammaf( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trigammaf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
